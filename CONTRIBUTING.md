@@ -12,6 +12,11 @@ git clone <URL del fork> en tu terminal.
 Para mantener tu fork actualizado con los cambios del repositorio original, agrega el repositorio original como un remoto. Puedes hacerlo ejecutando `git remote add upstream <URL del repositorio original>`.
 
 ### Navegar en la carpeta creada 
+#### Árbol de carpetas 
+
+![image](https://github.com/Jloen1999/retosITCodeEG/assets/74373827/7256a6b1-56da-4ec3-9a20-7c1272ef7088)
+
+
 
 - Entra en la carpeta local reto-01/soluciones/ del directorio clonado.
 ```sh
