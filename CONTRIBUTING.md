@@ -9,19 +9,26 @@ git clone <URL del fork> en tu terminal.
 ```
 
 ### Añade el repositorio original como remoto:  
-Para mantener tu fork actualizado con los cambios del repositorio original, agrega el repositorio original como un remoto. Puedes hacerlo ejecutando git remote add upstream <URL del repositorio original>.
+Para mantener tu fork actualizado con los cambios del repositorio original, agrega el repositorio original como un remoto. Puedes hacerlo ejecutando `git remote add upstream <URL del repositorio original>`.
 
-### Crear una nueva rama para su solución:
+### Navegar en la carpeta creada 
 
+- Entra en la carpeta local reto-01/soluciones/ del directorio clonado.
 ```sh
-git checkout -b solucion-reto-01-usernameTelegram
+cd tu-repositorio-forkeado/reto-01/soluciones/
 ```
 
 ### Añadir su solución:
 
-Entrar en la carpeta local reto-01/soluciones/
-Añadir el archivo del programa de esa carpeta con el mismo nombre que el que tienes en tu cuenta de telegram
-Hacer commit de los cambios:
+- Crea tu programa dentro de la carpeta soluciones.
+- Dicho programa debe tener el mismo nombre que el que tienes en telegram
+
+### Crear una nueva rama para su solución:
+```sh
+git checkout -b solucion-reto-01-tu-usuarioTelegram
+```
+
+- Hacer commit de los cambios:
 
 ```sh
 git add .
